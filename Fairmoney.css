@@ -1,0 +1,1548 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Inter", sans-serif;
+
+}
+
+nav{
+ display: flex; 
+ padding: 15px 0;
+ align-items: center;
+ width: 100%;
+ padding-left: 5%;
+}
+
+
+.KudaImg img{
+  width: 180px;
+}
+
+.LeftBar{
+  margin-left: 30%;
+}
+
+.LeftBar ul{
+  display: flex;
+  gap: 20px;
+
+}
+
+.LeftBar ul li{
+  list-style: none;
+  font-size: 15px;
+  align-items: center;
+}
+
+.LeftBar ul a{
+  text-decoration: none;
+  color: black;
+}
+
+
+ul li{
+  position: relative;
+}
+
+ul li a{
+display: flex;
+text-decoration: none;
+}
+
+ul li .DropDown li{
+display: block;
+}
+
+ul li .DropDown{
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: -35px;
+  z-index: 100;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 7px;
+padding-left: 55px;
+cursor: pointer;
+ 
+}
+
+ul li a:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+ul li:hover ul.DropDown{
+display: block;
+padding: 25px 50px;
+
+
+}
+
+
+li a{
+  color: black;
+}
+
+ul .DropDown li a{
+padding-bottom: 40px;
+
+}
+
+li img{
+  position: absolute;
+  right: +120px ;
+  padding: 5px 5px;
+  border-radius: 3px;
+}
+
+.OneImg li img{
+  background-color: rgb(11, 111, 210);
+  padding: 8px 11px;
+  top: -6px;
+}
+
+.TwoImg li img{
+background-color: rgba(140, 229, 190, 0.688);
+padding: 8px 11px;
+top: -6px;
+}
+
+.ThirdImg li img{
+  background-color:rgb(100, 4, 144);
+  padding: 10px 13px;
+  top: -6px;
+  }
+
+.FourthImg li img{
+  background-color: rgb(16, 124, 63);
+  padding: 9px 13px;
+  top: -6px;
+}
+
+.FifthImg li img{
+  background-color: rgba(71, 168, 114, 0.743);
+  padding: 7px 10.2px;
+  top: -6px;
+}
+
+.SixthImg li img{
+  background-color: rgba(77, 5, 110, 0.538);
+  padding: 7px 15px;
+ position: absolute;
+ left: -15px;
+ top: -6px;
+}
+
+.SeventhImg li img{
+background-color: rgba(63, 173, 111, 0.842);
+padding: 7px 10px;
+justify-content: center;
+top: -6px;
+}
+
+div .DropDown2 img{
+  position: absolute;
+  right: +120px ;
+  padding: 5px 5px;
+  border-radius: 3px;
+}
+
+.ImgOne li img{
+  background-color: rgb(11, 111, 210);
+  padding: 9px 13px;
+  top: -6px;
+}
+
+.ImgTwo li img{
+  background-color: rgb(16, 124, 63);
+  padding: 9px 13px;
+  top: -6px;
+}
+
+
+
+ul .DropDown{
+padding: 0px 40px;
+cursor: pointer;
+
+}
+
+ul .DropDown li a{
+ padding-left: 40px; 
+
+}
+
+
+div li a{
+  padding-bottom: 15px;
+}
+
+
+.OneImg li a{
+  display: flex;
+}
+
+/*Test*/
+
+ul li{
+  position: relative;
+}
+
+ul li a{
+display: flex;
+text-decoration: none;
+}
+
+ul li .DropDown2 li{
+display: block;
+}
+
+ul li .DropDown2{
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  right: -270px;
+  top: 0px;
+  z-index: 90;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+ 
+ 
+}
+
+ul li a:hover{
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+ 
+}
+
+ul .OneImg:hover ul.DropDown2{
+display: block;
+padding: 25px 50px;
+cursor: pointer;
+}
+
+
+
+
+/*===SECTION ONE===*/
+.genSection{
+  padding: 10px 7%;
+}
+
+.SectionOneA{
+  display: grid;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(235, 241, 253);
+  border-radius: 50px;
+}
+
+
+
+.Text{
+  padding: 6% 0;
+  text-align: center;
+  margin: left 100px;
+  
+}
+
+
+.Text h2{
+line-height: 55px;
+font-size: 43px;
+}
+
+.Text p{
+font-size: 17.8px;
+padding: 30px 0;
+line-height: 30px;
+word-spacing: 3px;
+color: rgb(67, 75, 101);;
+}
+
+
+.Img1{
+  position: absolute;
+    width: 400px;
+   top: 10px;
+    right: -220px;
+  display: flex;
+}
+
+
+.Img2{
+width:210px;
+position: absolute;
+transform: rotate(30deg);
+left: -15px;
+top: 280px;
+}
+
+
+
+.Text button{
+background-color: black;
+color: white;
+border: grey solid 1px;
+font-size: 9px;
+text-align: left;
+line-height: 13px;
+padding: 5px 8px;
+justify-content: center;
+border-radius: 6px;
+margin-left: 6px;
+}
+
+.Text span{
+  margin-left: 25px;
+ font-size: 18px;
+}
+.Text img{
+  align-content: center;
+  margin-bottom: -15px;
+}
+
+/*=====SECTION TWO======*/
+
+.genSectionOne{
+  padding: 13px 8%;
+  width: 100%;
+  display:grid;
+  padding-bottom: 40px;
+}
+
+
+.Checks img{
+width: 135px;
+}
+
+.Central1{
+  display: flex;
+  gap: 80px;
+ padding-right: 80px;
+}
+
+.Central1 span{
+  display: flex;
+  
+}
+
+.Checks{
+  display: flex;
+   align-items: center;
+}
+.Checks span img{
+  width: 15px;
+}
+
+.Checks2 span img{
+  width: 17px;
+}
+
+.Checks2{
+  display: flex;
+ align-items: center;
+ margin-left: -53px;
+}
+
+.Checks2 img{
+  width: 80px;
+}
+
+
+.Text2{
+  display: flex;
+  font-size: 9px;
+  word-spacing: 5px;
+  color: rgb(188, 188, 188);
+  gap: 160px;
+  padding: 10px 0;
+}
+
+
+.Central3{
+display: flex;
+margin-left: auto;
+margin-top: -68px;
+align-items: center;
+background-color: rgb(255, 255, 255);
+border: rgb(230, 229, 229) solid 1px;
+padding: 11px 20px;
+border-radius: 8px;
+}
+
+.Central3 img{
+width: 50px;
+margin-right: 15px;
+}
+
+.Central3 span{
+  font-size: 12px;
+  color: rgb(104, 104, 104);
+ 
+}
+
+.Checks span{
+ padding: 8px 15px;
+ color: rgba(100, 147, 107, 0.855);;
+ background-color: rgba(219, 237, 233, 0.73);
+ border-radius: 6px;
+margin-right: 12px;
+}
+
+.Checks2 span{
+ padding: 8px 15px;
+ color: rgba(100, 147, 107, 0.855);;
+ background-color: rgba(219, 237, 233, 0.73);
+ border-radius: 6px;
+ margin-right: 12px;
+}
+
+
+
+
+.LeftBar ul li:hover{
+color: rgba(39, 149, 39, 0.575);
+
+}
+
+
+
+/*=====SECTION THREE=====*/
+
+
+.genSectionTwo{
+  width: 100%;
+ padding: 60px 7%;
+ display: flex;
+background-color: rgba(248, 250, 253, 0.726);
+border-radius: 50px 50px 0 0;
+}
+
+.board0{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: -20px 0px;
+  margin-top: 30px;
+  
+}
+
+
+.Shift1{
+ text-align: left;
+ margin: 8px 0px;
+ margin-top: 30px;
+
+}
+
+.Shift1 h1{
+  font-size: 35px;
+  line-height: 40px;
+  word-spacing: 4px;
+ font-weight: 700;
+}
+
+.Shift1 p{
+font-size: 17px;
+padding: 20px 0;
+line-height: 30px;
+padding-right: 2px;
+color: rgb(71, 71, 71);
+}
+
+.Shift2{
+  position: relative;
+background-color: rgba(232, 217, 252, 0.301);
+width: 85%;
+overflow: hidden;
+border-radius: 20px;
+padding: 55px 90px;
+margin-left: 50px;
+}
+
+.Shift2 p{
+  position: absolute;
+  top:  30px;
+  left: 20px;
+}
+
+.Shift2 span{
+  position: absolute;
+  font-weight: bolder;
+  font-size: 80px;
+  bottom: 50px;
+  left: 15px;
+ 
+}
+
+.Shift2 h4{
+  position: absolute;
+  bottom: 30px;
+  left: 15.3px;
+}
+
+.Shift2 img{
+ position: relative;
+ left: 95px;
+ bottom: -54px;
+}
+
+.Shift2:hover {
+  color: white;
+  background-color: rgb(92, 50, 148);
+  transition: 0.5; 
+}
+
+
+
+
+
+.Shift3{
+    position: relative;
+    background-color: rgba(189, 218, 207, 0.216);
+    width: 85%;
+    border-radius: 20px;
+    padding: 55px 90px;
+    overflow: hidden;
+    margin-left: 28px;
+ 
+}
+
+.Shift3:hover {
+   color: white;
+   background-color:  rgb(41, 127, 62);;
+   transition: 0.5;
+}
+
+  
+  
+.Shift3 p{
+    position: absolute;
+    bottom: 130px;
+    left: 20px;
+}
+  
+.Shift3 span{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 55px;
+    bottom: 50px;
+    left: 15px;
+   
+}
+  
+.Shift3 h4{
+    position: absolute;
+    bottom: 30px;
+    left: 15.3px;
+}
+  
+.Shift3 img{
+   position: relative;
+   left: -90px;
+   bottom: 55px;
+  
+   
+}
+
+ 
+
+
+
+.genSectionTwoB{
+    width: 100%;
+   padding: 85px 7%;
+   display: flex;
+  background-color: rgba(248, 250, 253, 0.726);
+  border-radius:50px 50px 0 0px ;
+}
+  
+.board1{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 5px;
+ margin-top: -100px;
+ 
+}
+  
+.Shift4{
+    position: relative;
+  background-color:  rgba(189, 218, 207, 0.216);
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 80px 190px;
+  
+ }
+  
+.Shift4 p{
+    position: absolute;
+    top:  30px;
+    left: 20px;
+ }
+  
+.Shift4 span{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 70px;
+    bottom: 50px;
+    left: 15px;
+    line-height: 80px;
+    z-index: 1;
+}
+  
+.Shift4 h4{
+    position: absolute;
+    bottom: 20px;
+    left: 15.3px;
+ }
+  
+  .Shift4 img{
+   position: relative;
+   left: -100px;
+   bottom: 80px;
+}
+
+
+.Shift5 span{
+  position: absolute;
+  font-weight: bolder;
+  font-size: 80px;
+  bottom: 15px;
+  left: 15px;
+}
+
+
+.Shift5:hover {
+  color: white;
+  background-color: rgb(192, 119, 67);
+  transition: 0.5;
+ 
+}
+
+
+.Shift5 img:hover{
+  content: url(/loans-proccessed__orange.svg);
+  filter: brightness(0) invert(1);
+}
+
+
+.Shift5{
+    position: relative;
+  background-color: rgba(192, 119, 67, 0.11);
+  width: 88%;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 55px 90px;
+  margin-left: 30px;
+}
+
+  
+.Shift5 p{
+    position: absolute;
+    top:  30px;
+    left: 20px;
+}
+  
+
+  
+.Shift5 h4{
+  font-size: 20px;
+    position: absolute;
+   font-weight: 500;
+   top: 230px;
+    left: 70px;
+}
+  
+.Shift5 img{
+   position: relative;
+   left: -130px;
+   bottom: 20px;
+}
+
+.Shift6:hover {
+  color: white;
+  background-color:  rgb(67, 98, 199);;
+  transition: 0.5;
+}
+
+
+
+.Shift6{
+    position: relative;
+  background-color: rgba(67, 134, 192, 0.068);
+  width: 86%;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 55px 90px;
+  margin-left: 25px;
+}
+
+.Shift4:hover {
+  color: white;
+  background-color:   rgb(41, 127, 62);;
+  transition: 0.5;
+}
+
+  
+.Shift6 p{
+    position: absolute;
+    top:  150px;
+    left: 20px;
+}
+  
+.Shift6 span{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 35px;
+    bottom: 65px;
+    left: 15px;
+   
+}
+  
+.Shift6 h4{
+    position: absolute;
+   top: 220px;
+    left: 15px;
+}
+  
+.Shift6 img{
+   position: relative;
+   left: 30px;
+   bottom: 55px;
+}
+
+
+
+
+
+/* =====SECTION FOUR===== */
+
+.genSectionThreeA{
+  padding: 50px 0;
+  background-color: rgba(232, 239, 255, 0.901);
+
+}
+
+
+.HeadText {
+  justify-content: center;
+ flex-wrap: wrap;
+  align-content: center;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 40px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .genSectionThree{
+  width: 100%;
+ 
+  padding: 0px 0;
+  display: flex; 
+  background-color: rgba(232, 239, 255, 0.901);
+} 
+
+.Slide{
+  display: flex;
+  flex-flow: row;
+  gap: 20px;
+  padding: 30px 50px;
+  margin: 60px 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.SlideOne{
+ 
+ 
+  background-color: white;
+  padding: 20px 5%;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 18px;
+  position: relative;
+  box-shadow: rgba(145, 145, 145, 0.24) 0px 3px 8px;
+
+}
+
+
+.SlideOne h3{
+  font-size: 28px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.SlideOne p{
+  font-size: 25px;
+  padding: 15px 0;
+
+}
+
+.OneB button{
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+}
+
+
+.Slide img{
+  width: 250px;
+}
+
+.SlideOne img{
+width: 250px;
+left: 200px;
+position: relative;
+transform: rotate(-35deg)
+}  */
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.genSectionThree{ 
+  background-color: rgba(232, 239, 255, 0.901);
+  padding: 20px 2%;
+  padding-bottom: 12%;
+} 
+
+
+.mySwiper1 .swiper-slide{
+  border-radius: 15px;
+  padding: 30px 60px;
+  padding-top: 20px;
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+  height: 370px;
+}
+
+
+
+.SlideOne{
+  text-align: left;
+  margin-left: 10px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+
+.mySwiper1 .swiper-slide img{
+  position: absolute;
+  width: 250px;
+  transform: rotate(-26deg);
+  right: -70px;
+  bottom: -290px;
+}
+
+
+/* .SlideOne img{
+ margin-left: 150px;
+  width: 30px;
+ } */
+
+
+.SlideTwo{
+  text-align: left;
+  margin-left: 10px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.SlideThree{
+  text-align: left;
+  margin-left: 10px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.SlideFour{
+  text-align: left;
+  margin-left: 10px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.SlideFive{
+  text-align: left;
+  margin-left: 10px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.SlideSix{
+  text-align: left;
+  margin-left: 10px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.SlideSeven{
+  text-align: left;
+  margin-left: 10px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+
+.SlideEight{
+  text-align: left;
+  margin-left: 10px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.SlideOne p{
+  padding: 15px 0;
+}
+
+.SlideTwo p{
+  padding: 15px 0;
+}
+
+.SlideThree p{
+  padding: 15px 0;
+}
+
+.SlideFour p{
+  padding: 15px 0;
+}
+
+.SlideFive p{
+  padding: 15px 0;
+}
+
+.SlideSix p{
+  padding: 15px 0;
+}
+
+.SlideSeven p{
+  padding: 15px 0;
+}
+
+.SlideEight p{
+  padding: 15px 0;
+}
+
+
+
+
+.OneB button{
+  background-color: rgba(60, 154, 97, 0.745);
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.TwoB button{
+  background-color: rgb(0, 0, 0);
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.ThreeB button{
+  background-color: rgba(48, 126, 216, 0.905);
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.FourB button{
+  background-color: rgba(60, 154, 97, 0.745);
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.FiveB button{
+  background-color: rgb(0, 0, 0);
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.SixB button{
+  background-color: rgba(48, 126, 216, 0.905);
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.SevenB button{
+  background-color: rgba(60, 154, 97, 0.745);
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.EightB button{
+  background-color: rgb(0, 0, 0);
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+
+
+
+.UnderTake{
+  display: flex;
+ gap: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 246, 255);
+ padding: 40px 50px;
+margin-left: 80px;
+margin-right: 80px;
+border-radius: 20px;
+position: relative;
+bottom: 60px;
+z-index: 11;
+
+}
+
+.UnderTake span{
+  font-size: 20px;
+}
+
+.UnderTake button{
+font-size: 17px;
+background-color:rgba(43, 143, 83, 0.845) ;
+color: white;
+border: none;
+padding: 15px 20px;
+border-radius: 7px;
+}
+
+
+.InMid{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: rgb(237, 237, 237) solid 1px;
+  padding: 40px 40px;
+  margin: 0 110px;
+  position: relative;
+ bottom: 70px;
+
+}
+
+
+.ImgHold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: white;
+  border: rgb(237, 237, 237) solid 1px;
+  margin: 0px 80px;
+  border-radius: 18px;
+  position: relative;
+  bottom: 80px;
+}
+
+
+.Hold1 img{
+width: 80px;
+}
+
+.Hold2 img{
+width: 100px;
+}
+
+.Hold3 img{
+ width: 160px;
+ }
+
+.Hold4 img{
+width: 180px;
+ }
+
+.Hold5 img{
+ width: 160px;
+ }
+        
+
+  
+
+
+.Testimonials{
+ display: flex;
+ justify-content: center;
+}
+
+.Testimonials h1{
+font-size: 45px;
+}
+
+
+.TestiPart{
+display: flex;
+gap: 25px;
+padding: 60px 0;
+}
+
+.NameDiv{
+  display: grid;
+  gap: 16px;
+  align-items: center;
+  margin-left: 8%;
+  margin-bottom: 50px;
+}
+
+.NameDiv span{
+  text-align: left;
+  background-color: #fbfbfd;
+  padding: 30px 50px;
+  color:#c9c9ca;
+  font-size: 20px;
+  border-radius: 3px; 
+  font-weight: 600;
+}
+
+
+.TestiDiv{
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  background-color: #fbfbfd;
+  padding: 60px 70px;
+  border-radius: 15px;
+  margin-top: 5px; 
+}
+
+.StoryDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.StoryDiv h3{
+  font-size: 25px;
+  line-height: 35px;
+  color: rgba(2, 27, 45, 0.868);
+}
+
+.StoryDiv p{
+  position: relative;
+  font-size: 20px;
+  line-height: 35px;
+  color: rgba(2, 27, 45, 0.868);
+}
+
+
+.Overflow{
+  overflow-y: scroll;
+  font-size: 19px;
+  line-height: 30px;
+  height: 300px;
+  width: 80%;
+  color: rgb(89, 89, 89);
+}
+
+.StoryDiv::after{
+position: absolute;
+content: "";
+left: 55%;
+height: 15%;
+border-left: 1px solid #dbdbdb;
+}
+
+.NameDiv :hover{
+  transition: 0.5;
+  background-color: rgba(198, 102, 7, 0.07);
+  color: #bd6834af;
+  font-weight: 600;
+}
+
+.Swip2{
+  background-color: rgb(249, 249, 249);
+margin: 30px 0;
+}
+
+.Blogs{
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  margin-left: 6%;
+  padding: 35px 0;
+ padding-top: 9%;
+}
+
+.Blogs h3::after{
+  position: absolute;
+  content: "";
+  height: 25%;
+  border-left: 1px solid #5e5e5e;
+  left: 23%;
+  bottom: 18%;
+  }
+
+
+.Blogs h3{
+  font-size: 40px;
+}
+
+.Blogs p{
+  font-size: 22px;
+  color:  #7272724d;;
+}
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide2 {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide2 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.SwipImg{
+  position: relative;
+  bottom: 34%;
+}
+
+.SwipImg img{
+  width: 370px;
+  border-radius: 15px 15px 0 0;
+}
+
+
+
+.SwipOne{
+  position: absolute;
+  text-align: left;
+  top: 40%;
+  margin: 0 15px;
+}
+
+.SwipOne span{
+  color: #727272;
+  font-size: 17px;
+}
+
+.SwipOne h3{
+  font-size: 22px;
+  padding: 20px 0;
+}
+
+.SwipOne p {
+ color: #727272;
+ font-size: 15px;
+ line-height: 30px;
+}
+
+.SwipOne button{
+  background-color: rgba(38, 145, 81, 0.855) ;
+  color: white;
+  padding: 18px 20px;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+ margin-top: 65px;
+}
+
+.mySwiper2 .swiper-slide{
+  border-radius: 15px;
+  padding: 30px 60px;
+
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+  height: 600px;
+}
+
+.mySwiper2 .swiper-slide button{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+} 
+
+
+
+.End{
+  display: flex;
+  background-color: rgb(249, 249, 249);
+  /* padding-bottom: 5%; */
+  margin: 0 14%;
+  padding-top: 10%;
+}
+
+
+.End0 img{
+width: 200px;
+}
+
+.LeftEnd{
+  margin-left: auto;
+  padding: 60px 0;
+}
+
+.LeftEnd h1{
+ font-size: 35px;
+ padding-bottom: 20px;
+}
+
+.ClickHold{
+  display: flex;
+  gap: 8px;
+  position: relative;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding-bottom: 35px;
+}
+
+
+/* .ClickHold img ::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-left: 1px solid #000000;
+    left: 0;
+    bottom: 0;
+} */
+
+
+
+.Scan0{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding-top: 8%;
+}
+
+.Scan0 span{
+  font-size: 17.8px;
+  color: #696969;
+}
+
+.Scan0 img{
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+.Closing{
+  background-color: #171d32;;
+  margin-top: -30px;
+  }
+  
+
+.List1{
+  margin: 0 50%;
+  margin-left: 15%;
+}
+
+
+
+.List1 h3{
+  color: white;
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+.List1 ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  list-style: none;
+  color: white;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+
+
+
+.PageButton{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr ;
+  margin-left: 170%;
+  margin-top: -25%; 
+}
+
+.ListOmg{
+  padding: 50px 10px;
+}
+
+
+.facebook img{
+  width: 10px;
+
+}
+
+.Twitter img{
+  width: 25px;
+}
+
+.List2{
+  display: flex;
+  gap: 13%;
+  margin: 0 15%;
+  padding-top: 100px;
+  color: white;
+  font-size: 15px;
+  line-height: 40px;
+
+}
+
+.Adjust{
+  word-spacing: 20px;
+  padding-left: 20px;
+}
+
+.Adjust2{
+margin-left: 20px;
+}
+
+.IconButton{
+  display: flex;
+ gap: 150%;
+
+}
+
+.SpanHold p{
+  font-size: 15px;
+}
+
+
+.List1 ul li:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
+
+.SpanHold .Adjust2:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
+.Adjust5{
+  word-spacing: -1px;
+}
+
+.Adjust3{
+  word-spacing: -1px;
+  margin-right: 20px;
+}
+
+
+.SpanHold .Adjust3:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
+.SpanHold .Adjust4:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
+
+.SpanHold .Adjust5:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
+.SpanHold .Adjust1:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}

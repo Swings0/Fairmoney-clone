@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Inter", sans-serif;
+}
+
+
+
+
+
+nav{
+  display: flex; 
+  padding: 15px 0;
+  align-items: center;
+  width: 100%;
+  padding-left: 5%;
+}
+ 
+ 
+.KudaImg img{
+ width: 180px;
+}
+ 
+.LeftBar{
+ margin-left: 30%;
+}
+ 
+.LeftBar ul{
+  display: flex;
+  gap: 20px;
+}
+ 
+.LeftBar ul li{
+  list-style: none;
+  font-size: 15px;
+  align-items: center;
+}
+ 
+ 
+ul li{
+  position: relative;
+}
+ 
+ul li a{
+display: flex;
+text-decoration: none;
+}
+ 
+ul li .DropDown li{
+display: block;
+}
+ 
+ul li .DropDown{
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: -35px;
+  z-index: 100;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 7px;
+  margin-left: -55px;
+
+}
+
+ul li a:hover{
+  background-color: rgb(255, 255, 255);
+}
+ 
+ul li:hover ul.DropDown{
+display: block;
+padding: 25px 50px;
+}
+ 
+ 
+li a{
+ color: black;
+}
+ 
+ul .DropDown li a{
+padding-bottom: 40px;
+
+}
+ 
+li img{
+  position: absolute;
+  right: +120px ;
+  padding: 5px 5px;
+  border-radius: 3px;
+}
+ 
+.OneImg li img{
+  background-color: rgb(11, 111, 210);
+  padding: 8px 11px;
+  top: -6px;
+}
+ 
+.TwoImg li img{
+background-color: rgba(140, 229, 190, 0.688);
+padding: 8px 11px;
+top: -6px;
+}
+ 
+.ThirdImg li img{
+  background-color:rgb(100, 4, 144);
+  padding: 10px 13px;
+  top: -6px;
+  }
+
+.FourthImg li img{
+  background-color: rgb(16, 124, 63);
+  padding: 9px 13px;
+  top: -6px;
+}
+ 
+.FifthImg li img{
+  background-color: rgba(71, 168, 114, 0.743);
+  padding: 7px 10.2px;
+  top: -6px;
+}
+ 
+.SixthImg li img{
+  background-color: rgba(77, 5, 110, 0.538);
+  padding: 7px 15px;
+position: absolute;
+left: -15px;
+top: -6px;
+}
+ 
+.SeventhImg li img{
+background-color: rgba(63, 173, 111, 0.842);
+padding: 7px 10px;
+justify-content: center;
+top: -6px;
+}
+
+div .DropDown2 img{
+  position: absolute;
+  right: +120px ;
+  padding: 5px 5px;
+  border-radius: 3px;
+}
+
+.ImgOne li img{
+  background-color: rgb(11, 111, 210);
+  padding: 9px 13px;
+  top: -6px;
+}
+
+.ImgTwo li img{
+  background-color: rgb(16, 124, 63);
+  padding: 9px 13px;
+  top: -6px;
+}
+
+
+
+ul .DropDown{
+padding: 0px 40px;
+
+}
+ 
+ul .DropDown li a{
+margin-left: 40px;
+
+}
+
+
+div li a{
+  padding-bottom: 15px;
+}
+
+
+
+.LeftBar ul a{
+  text-decoration: none;
+  color: black;
+}
+/*Test*/
+
+ul li{
+  position: relative;
+}
+
+ul li a{
+display: flex;
+text-decoration: none;
+}
+
+ul li .DropDown2 li{
+display: block;
+}
+
+ul li .DropDown2{
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 320px;
+  top: 0px;
+  z-index: 90;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 7px;
+  margin-left: -55px;
+
+}
+
+ul li a:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+ul .OneImg:hover ul.DropDown2{
+  display: block;
+  padding: 25px 50px;
+}
+
+.LeftBar ul li:hover{
+  color: rgba(39, 149, 39, 0.575);
+  cursor: pointer;
+}
+
+
+
+
+
+/* =====SECTION ONE===== */
+
+
+
+
+.Sec1{
+  width: 100%;
+}
+
+.Sec1 h2{
+  font-size: 35px;
+  color: rgba(25, 28, 44, 0.889);
+}
+
+.DivText{
+  width: 100;
+  margin: 80px 13%;
+}
+
+.DivText2{
+  display: flex;
+  align-items: center;
+  margin: 10% 0;
+}
+
+.TheHead{
+  margin-bottom: 10px;
+}
+
+.AboutText span{
+font-size: 13px;
+background-color:#f3faf7;
+/* width: fit-content; */
+padding: 16px 24px;
+color: #37A477;
+font-weight: 600;
+letter-spacing: 2px;
+border-radius: 6px;
+
+}
+
+.DivText2 span{
+  margin-top: 20%;
+}
+
+
+.AboutText p{
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+
+
+.DivImg{
+margin-left: auto;
+}
+
+.DivImg img{
+width: 410px;
+height: 400px;
+border-radius: 10px;
+}
+
+
+.MidText{
+  margin: 10% 13%;
+}
+
+
+.PositionText{
+  margin-bottom: 30px;
+} 
+
+
+
+.PositionText{
+  display: flex;
+  align-items: center; 
+
+}
+
+.PositionText span{
+  color: #37A477;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  background-color: rgb(243, 250, 247);
+  border-radius: 8px;
+  flex: 0 0 auto;
+  padding: 16px 24px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px; 
+}
+
+.MidText p{
+  position: absolute;
+  line-height: 30px;
+  margin-top: 0px;
+}
+
+
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: rgba(40, 54, 85, .07);
+  margin-left: 20px;
+}
+
+
+
+.Pond{
+  margin: 17% 0 0 13%;
+}
+
+
+
+
+.ValuesWrapper{
+display: flex;
+flex-wrap: wrap;
+/* justify-content: space-between; */
+margin: 3% 13%;
+}
+
+.Row{
+width: 33%;
+
+}
+
+.ValueText{
+  background-color: white;
+  border: rgba(40, 54, 85, .07) solid 1px;
+  width:100%;
+  height: 70vh; 
+}
+
+.Text1{
+padding: 10px 30px;
+}
+
+
+.ValueIcon{
+  position: relative;
+  background-color: rgba(55, 164, 119, .1);
+  margin: 50px 40px;
+  border-radius: 50%;
+  background-size: 20%;
+  width: fit-content;
+  width: 50px;
+  height: 50px;
+}
+
+.ValueIcon img{
+  position: absolute;
+  left: -30px;
+  bottom: -15px;
+  width: 30px;
+  margin: 50px 40px;
+  margin-bottom: 30px;
+}
+
+/* .ValueIcon {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(55, 164, 119, .1);
+   background-image: url('../images/fm-values-mindset.svg'); 
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border-radius: 50%;
+  margin-bottom: 30px;
+} */
+
+
+
+.Text1{
+  margin-top: -30px;
+}
+
+.Text1 p{
+  line-height: 26px;
+  color: rgba(22, 25, 34, 0.888);
+  padding: 20px 0;
+}
+
+.Text1 h5{
+  color: rgba(22, 25, 34, 0.888);
+  font-size: 18px;
+}
+
+
+.Pond h5{
+  font-size: 13px;
+  background-color:#f3faf7;
+  width: fit-content;
+  padding: 16px 24px;
+  color: #37A477;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 6px;
+}
+
+
+
+
+
+
+
+.Sec2{
+  width: 100%;
+}
+
+.Sec2 h2{
+  font-size: 35px;
+  color: rgba(25, 28, 44, 0.889);
+}
+
+
+
+.DivCap{
+  width: 100;
+  margin: 0 13%;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.DivText2{
+  display: flex;
+
+  
+}
+
+
+.DivCap p{
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+
+
+.DivCap button{
+ font-size: 20px;
+background-color: black;
+padding: 20px 35px;
+color: white;
+border: none;
+border-radius: 10px;
+}
+
+
+
+.DivImg2{
+margin-left: auto;
+}
+
+.DivImg2 img{
+width: 410px;
+height: 400px;
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.Closing{
+  background-color: #171d32;;
+  margin-top: -30px;
+  }
+  
+
+.List1{
+  margin: 0 50%;
+  margin-left: 15%;
+}
+
+
+
+.List1 h3{
+  color: white;
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+.List1 ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  list-style: none;
+  color: white;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+
+
+
+.PageButton{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr ;
+  margin-left: 170%;
+  margin-top: -25%; 
+}
+
+.ListOmg{
+  padding: 50px 10px;
+}
+
+
+.facebook img{
+  width: 10px;
+
+}
+
+.Twitter img{
+  width: 25px;
+}
+
+.List2{
+  display: flex;
+  gap: 13%;
+  margin: 0 15%;
+  padding-top: 100px;
+  color: white;
+  font-size: 15px;
+  line-height: 40px;
+
+}
+
+.Adjust{
+  word-spacing: 20px;
+  padding-left: 20px;
+}
+
+.Adjust2{
+margin-left: 20px;
+}
+
+.IconButton{
+  display: flex;
+ gap: 150%;
+
+}
+
+.SpanHold p{
+  font-size: 15px;
+}
+
+
+.List1 ul li:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
+
+.SpanHold .Adjust2:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
+.Adjust5{
+  word-spacing: -1px;
+}
+
+.Adjust3{
+  word-spacing: -1px;
+  margin-right: 20px;
+}
+
+
+.SpanHold .Adjust3:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
+.SpanHold .Adjust4:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
+
+.SpanHold .Adjust5:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
+.SpanHold .Adjust1:hover{
+  transition: 0.5;
+  color: #7cf0b89d;
+  cursor: pointer;
+}
+
